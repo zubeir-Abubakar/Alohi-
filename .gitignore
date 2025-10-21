@@ -1,9 +1,2 @@
-# dependencies
-/node_modules
-
-# testing
-/coverage
-
-# Cypress Configuration Files (Security Sensitive)
-/cypres.env.json
-/cypress.config.js
+cypres.env.json
+cypress.config.js
