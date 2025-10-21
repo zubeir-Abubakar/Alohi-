@@ -1,2 +1,4 @@
-cypres.env.json
+# Cypress Configuration Files (Security Sensitive)
+cypress.env.json
 cypress.config.js
+/Users/abubakar/Desktop/alohi-auth-tests/cypress.env copy.json
