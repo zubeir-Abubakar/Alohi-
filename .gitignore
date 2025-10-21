@@ -1,4 +1,4 @@
 # Cypress Configuration Files (Security Sensitive)
 cypress.env.json
 ~/cypress.config.js
-/cypress.config.js
+cypress.config.js
