@@ -1,4 +1,4 @@
-# Fax.Plus Cypress Test Suite
+# Alohi Fax.plus Auth Cypress Test Suite
 
 ## Overview
 
@@ -6,7 +6,6 @@ This project contains **authentication and login tests** for Fax.Plus using **Cy
 
 * Authentication flows via **Keycloak** (Free and Enterprise users)
 * Validating main application pages after login
-* Ignoring expected exceptions from external scripts (e.g., Google Analytics, Keycloak scripts)
 
 This suite is intended for **manual and automated QA validation**, with reusable test patterns for different environments (staging, production, etc.).
 
@@ -73,7 +72,7 @@ cypress/
 │   └─ dashboard.spec.js     # Example: dashboard functionality tests
 │
 ├─ fixtures/
-│   └─ users.json            # User credentials (optional)
+│   └─ users.json            # User credentials 
 │
 ├─ support/
 │   ├─ commands.js           # Custom Cypress commands
@@ -95,7 +94,7 @@ const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'https://app.fax.plus', // Main app URL
+    baseUrl: 'https://app.fax.plus',
     setupNodeEvents(on, config) {
       // Node event listeners
     },
