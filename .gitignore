@@ -5,5 +5,5 @@
 /coverage
 
 # Cypress Configuration Files (Security Sensitive)
-cypress.env.json
+/cypress.env.json
 cypress.config.js
