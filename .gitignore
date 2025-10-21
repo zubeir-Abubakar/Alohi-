@@ -1,0 +1,10 @@
+# misc
+
+.cypress.env.json
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+/cypress.config.json

@@ -1,0 +1,9 @@
+{
+    "FREE_EMAIL": "test@example.com",
+    "FREE_PASSWORD": "Tester525!.",
+    "ENTERPRISE_EMAIL": "test@example.com",
+    "ENTERPRISE_PASSWORD": "Tester525!.",
+    "INVALID_EMAIL": "Tester@gmail.com",
+    "INVALID_PASSWORD": "Tester525!."
+  }
+  
