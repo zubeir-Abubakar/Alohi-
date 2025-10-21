@@ -1,4 +1,12 @@
-# Cypress Configuration Files (Security Sensitive)
+# Cypress specific ignores
 cypress.env.json
-~/cypress.config.js
 cypress.config.js
+
+# Other common Cypress ignores
+cypress/fixtures/example.json
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Node modules
+node_modules/

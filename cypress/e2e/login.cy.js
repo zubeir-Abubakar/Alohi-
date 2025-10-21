@@ -3,26 +3,6 @@ import Chance from 'chance';
 
 const chance = new Chance();
 
-// describe('Fax.Plus Login Flow', () => {
-
-//     beforeEach(() => {
-//       cy.visit('/');
-//     });
-  
-//     it('✅ Logs in successfully with Free user', () => {
-//       cy.origin('/', () => {
-//         cy.viewport(1280, 700);
-//         cy.get('#username').type(Cypress.env('FREE_EMAIL'));
-//         cy.contains('Sign In').click();
-//         cy.get('input[type="password"]').type(Cypress.env('FREE_PASSWORD'));
-//         cy.contains('Sign In').click();
-//       });
-  
-//     //   cy.url().should('include', '/dashboard');
-//     });
-  
-//   });
-
 describe('Fax.Plus Authentication Flow', () => {
     it('Logs in successfully with Free user', () => {
       cy.visit('/');
@@ -34,8 +14,8 @@ describe('Fax.Plus Authentication Flow', () => {
           .type(Cypress.env('FREE_PASSWORD'));
         cy.contains('Sign In').click();
   
-        cy.get('.kcFormCardClass');
-        cy.get(':nth-child(3) > .css-1j2b0xt-cardContent').click();
+        // cy.get('.kcFormCardClass');
+        // cy.get(':nth-child(3) > .css-1j2b0xt-cardContent').click();
         cy.get('.tss-bjcg3e-iconContainer').click() //to ignore the popup
 
         // To logout
@@ -54,8 +34,8 @@ describe('Fax.Plus Authentication Flow', () => {
             .type(Cypress.env('ENTERPRISE_PASSWORD'));
           cy.contains('Sign In').click();
     
-          cy.get('.kcFormCardClass');
-          cy.get(':nth-child(3) > .css-1j2b0xt-cardContent').click();
+          // cy.get('.kcFormCardClass');
+          // cy.get(':nth-child(3) > .css-1j2b0xt-cardContent').click();
   
           // To logout
           cy.get('.tss-zipife-iconWrapper').click(); 
