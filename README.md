@@ -69,10 +69,9 @@ cypress/
 │
 ├─ e2e/
 │   ├─ login.spec.js         # Keycloak login tests (Free & Enterprise users)
-│   └─ dashboard.spec.js     # Example: dashboard functionality tests
 │
 ├─ fixtures/
-│   └─ users.json            # User credentials 
+│   └─ Example.json             
 │
 ├─ support/
 │   ├─ commands.js           # Custom Cypress commands
@@ -80,6 +79,7 @@ cypress/
 │
 cypress.config.js            # Cypress configuration (baseUrl, env, etc.)
 package.json                 # Project dependencies & scripts
+cypress.env.json             #Project enviroments and user credantials
 README.md                    # Project documentation
 ```
 
