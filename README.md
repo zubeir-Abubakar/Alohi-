@@ -4,7 +4,7 @@
 
 This project contains **authentication and login tests** for Fax.Plus using **Cypress**. It covers:
 
-* Authentication flows via **Keycloak** (Free and Enterprise users)
+* Authentication flows (Free, Enterprise users and Invalid user)
 * Validating main application pages after login
 
 This suite is intended for **manual and automated QA validation**, with reusable test patterns for different environments (staging, production, etc.).
@@ -38,8 +38,7 @@ Optional: **Visual Studio Code** or another IDE for editing test files.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-org/faxplus-cypress-tests.git
-cd alohi-auth-tests
+git clone https://github.com/zubeir-Abubakar/Alohi-
 ```
 
 2. Install dependencies:
@@ -102,14 +101,6 @@ module.exports = defineConfig({
 });
 ```
 
-Optional: Use environment variables for staging, production, etc.:
-
-```bash
-npx cypress run --env baseUrl=https://staging.fax.plus
-```
-
----
-
 ## Running Tests
 
 * Open Cypress Test Runner:
@@ -155,7 +146,7 @@ Cypress.on('uncaught:exception', (err) => {
 
 ## Extending Tests
 
-1. **Add new users** in `cypress/e2e/login.spec.js` or `fixtures/users.json`.
+1. **Add new users** in `cypress/e2e/login.spec.js`.
 2. **Create new test files** in `cypress/e2e/` for other app flows (e.g., dashboard, fax sending).
 3. Use **custom commands** in `cypress/support/commands.js` for repetitive actions like login or navigation.
 
